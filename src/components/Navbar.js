@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar(props) {
     return (
         <div>
             <nav>
@@ -8,6 +8,7 @@ function Navbar() {
                     <li>Home</li>
                     <li>About</li>
                     <li>Experience</li>
+                    <li>{props.test}</li>
                 </ul>
             </nav>
         </div>
